@@ -1,0 +1,1524 @@
+/* @media (min-width: 350px) {
+
+    .service .top-div {
+        width: 165% !important;
+    }
+
+    .navbar-header {
+        width: 100% !important;
+    }
+
+    .left-nav,
+    .right-nav {
+        display: none !important;
+    }
+
+    .nav-logo {
+        margin: 0;
+        margin-left: 300px;
+    }
+
+    .service .section-1 {
+        width: 164% !important;
+        height: 3630px !important;
+    }
+
+    .service .section-1 .line {
+        display: block !important;
+    }
+
+    .service .section-1 .external-div {
+        width: 93% !important;
+    }
+
+    .service .section-1 .external-div h3 {
+        font-size: 38px !important;
+    }
+
+    .service .section-1 .external-div p {
+        font-size: 26px !important;
+    }
+
+    .service .section-2 {
+        width: 164% !important;
+        height: 930px !important;
+    }
+
+    .service .section-2 .parallax {
+        height: 1150px;
+    }
+
+    .service .section-2 .line {
+        display: block !important;
+    }
+
+    .service .section-2 .line .services {
+        width: 58% !important;
+    }
+
+    .service .section-2 .line .services h1 {
+        font-size: 90px !important;
+    }
+
+    .service .section-2 .line .services p {
+        font-size: 30px !important;
+    }
+} */
+
+
+
+
+/* @media (min-width: 992px) { */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS FOR NAV BAR */
+
+.navbar-header {
+    font-weight: 300;
+    font-size: 0.92rem;
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-header .navbar {
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 0;
+    padding: 37px 0 0 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    background: none;
+    font-family: 'Poppins';
+}
+
+.navbar a {
+    text-transform: uppercase;
+    font-size: 13.5px;
+}
+
+.left-nav,
+.right-nav,
+.nav-logo {
+    float: left;
+}
+
+.left-nav,
+.right-nav {
+    padding-top: 30px;
+    width: calc(50% - 50px);
+}
+
+.left-nav-ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.right-nav-ul {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo {
+    float: left;
+    width: 87px;
+    padding: 0;
+    margin: 0 5px 0 5px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.submenu {
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 0 28px 28px 18px;
+    float: left;
+    list-style: none outside none;
+    cursor: pointer;
+    width: max-content;
+}
+
+.submenu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.submenu .fa-chevron-down {
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.dropdown {
+    margin-top: 24px;
+    padding: 0;
+    position: absolute;
+    display: none;
+    background: #fff;
+}
+
+.dropdown li {
+    margin: 10px 10px 10px 10px;
+    list-style: none;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown a:hover {
+    color: #28a5df;
+}
+
+.submenu:hover .dropdown {
+    display: block;
+}
+
+/* CSS FOR Top div */
+
+.top-div {
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 20px 0px 20px;
+    background-image: url(../img/background_img.png);
+}
+
+.about .top-div {
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 20px 103px 20px;
+    background-image: url(../img/background_img.png);
+}
+
+.contact .top-div {
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 20px 103px 20px;
+    background-image: url(../img/contact-background.jpg);
+}
+
+.home .top-div {
+    height: 720px;
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 20px 103px 20px;
+    background-image: url(../img/contact-background.jpg);
+}
+
+.service .top-div {
+    height: 265px;
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 112px 20px 103px 20px;
+    background-image: url(../img/sirvuce-background.jpg);
+}
+
+.top-div .header {
+    font-size: 50px;
+    font-family: 'Poppins' !important;
+    color: #fff;
+    margin-bottom: 35px;
+    font-family: system-ui;
+    margin-top: 115px;
+    font-weight: 100 !important;
+    position: relative;
+}
+
+.contact .top-div .header {
+    font-size: 50px;
+    font-family: 'Poppins' !important;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: system-ui;
+    margin-top: 115px;
+    font-weight: 100 !important;
+    position: relative;
+}
+
+.home .top-div .header {
+    font-size: 50px;
+    font-family: 'Poppins' !important;
+    color: #fff;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    font-weight: 100 !important;
+    position: relative;
+    line-height: 56px;
+}
+
+.service .top-div .header {
+    font-size: 50px;
+    font-family: 'Poppins' !important;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: 130px;
+    font-weight: 100 !important;
+    position: relative;
+    line-height: 56px;
+}
+
+.home .top-div .top-hr-1 {
+    border: none;
+    border-bottom: 2px #28A5DF dotted;
+    text-align: center;
+    width: 85px;
+    margin: 144px auto 0px auto;
+}
+
+.home .top-div .top-hr-2 {
+    border: none;
+    border-bottom: 2px #28A5DF dotted;
+    text-align: center;
+    width: 85px;
+    margin: -11px auto 45px auto;
+}
+
+.top-div .para {
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+    line-height: 25px;
+    font-family: 'Poppins' !important;
+    font-weight: 100;
+    position: relative;
+}
+
+.home .top-div .para {
+    font-size: 15px;
+    color: #fff;
+    margin: auto;
+    line-height: 25px;
+    font-family: 'Poppins' !important;
+    font-weight: 100;
+    position: relative;
+    width: 556px;
+}
+
+.home .progress {
+    margin: 0;
+    margin-left: 290px;
+    margin-top: 100px;
+    width: 70%;
+}
+
+.home .progress p {
+    margin: 0;
+    text-align: center;
+}
+
+.home .progress-img {
+    height: 125px;
+}
+
+.home .percent {
+    position: absolute;
+    top: 35px;
+    left: 68px;
+    font-size: 38px;
+}
+
+.home .progress-1,
+.home .progress-2,
+.home .progress-3 {
+    font-family: 'Poppins';
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.top-div .fa-chevron-down {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.top-div .mobile-img {
+    margin: auto;
+    height: 335px;
+    display: block;
+    margin-top: 20px;
+}
+
+.top-div .arrow-obj {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    left: 0;
+}
+
+/* CSS FOR SECTION 1 */
+
+.section-1 {
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    padding: 36px 20px;
+    background-color: #454545 !important;
+}
+
+.home .section-1 {
+    margin: 0;
+    font-family: 'Poppins';
+    position: relative;
+    width: 96.85%;
+    text-align: center !important;
+    padding: 112px 20px;
+    background-color: white !important;
+}
+
+.service .section-1 {
+    height: 700px;
+    margin: 0;
+    font-family: 'Poppins';
+    position: relative;
+    width: 96.85%;
+    text-align: center !important;
+    padding: 112px 20px;
+    background-color: white !important;
+}
+
+.home .section-1 .top-heading {
+    margin: 0;
+    color: #28A5DF;
+    font-size: 20px;
+}
+
+.home .section-1 .main-heading {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.home .section-1 .main-heading b {
+    font-weight: 800 !important;
+}
+
+.home .section-1 .top-hr {
+    border: none;
+    border-bottom: 2px #28A5DF dotted;
+    text-align: center;
+    width: 85px;
+    margin: 25px auto 0px auto;
+}
+
+.home .section-1 .line {
+    padding: 0 48px;
+    width: 93.5%;
+    display: flex;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.service .section-1 .line {
+    width: 101.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.service .section-1 .external-div {
+    float: left;
+    width: 46.5%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.service .section-1 .external-div .head {
+    color: #454545;
+    font-size: 20px;
+}
+
+.service .section-1 .external-div p {
+    color: #999;
+    font-size: 14.72px;
+}
+
+.home .section-1 .line p {
+    color: #999999;
+    font-size: 14.72px;
+}
+
+.service .section-1 .external-div .head-para {
+    color: white;
+    font-size: 14.72px;
+    width: 96%;
+    background-color: #28A5DF;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+}
+
+.service .section-1 .external-div .sky-blue {
+    background-color: #28A5DF;
+}
+
+.service .section-1 .external-div .blue {
+    background-color: #005881;
+}
+
+.service .section-1 .external-div .green {
+    background-color: #00B5A6;
+}
+
+.service .section-1 .external-div .parrot {
+    background-color: #49BF4C;
+}
+
+.home .service-1 {
+    padding: 0 20px;
+}
+
+.home .section-1 .service-img {
+    height: 60px;
+}
+
+.home .section-1 .service-btn {
+    font-weight: 300;
+    font-family: "Poppins";
+    width: 25%;
+    font-size: 20px !important;
+    color: #fff !important;
+    border-radius: 3px;
+    margin: 80px auto 0 auto !important;
+    text-decoration: none;
+    background-color: #28A5D8 !important;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    border: 0;
+    display: block;
+}
+
+.section-1 .line {
+    padding: 0 10px;
+    max-width: 1280px;
+}
+
+.section-1 a {
+    text-decoration: none;
+}
+
+.section-1 .line-item {
+    text-decoration: none;
+    padding: 0 8px;
+    height: 57px;
+}
+
+/* CSS FOR SECTION OF CONTACT PAGE */
+
+.contact .section {
+    padding: 80px 20px;
+    height: 500px;
+}
+
+.contact .section .main-line {
+    font-family: 'Poppins';
+    display: flex;
+}
+
+.contact .section .div-1,
+.contact .section .div-2 {
+    max-width: 50%;
+    width: 50%;
+    display: block;
+}
+
+.contact .section .heading {
+    margin: 0;
+}
+
+.contact .section .info-div {
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0 20px;
+    max-width: 45%;
+    float: left;
+}
+
+.contact .phone {
+    margin-right: 27px !important;
+}
+
+.contact .section .info-div .internal-div {
+    margin: 0;
+    margin-left: 60px;
+}
+
+.contact .section .info-div .internal-div a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.contact .section .info-div h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact .section .info-div p {
+    margin: 0;
+    font-size: 14.72px;
+    color: #999999;
+}
+
+.contact .section .image {
+    position: absolute;
+}
+
+.contact .section .main-line .email,
+.name {
+    float: left;
+    width: 43%;
+}
+
+
+
+.contact .section form .subject {
+    width: 92.5%;
+}
+
+.contact .section form .message {
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    width: 92.5%;
+    height: 77px;
+    margin: 0 10px 20px 10px;
+    padding: 10px;
+}
+
+.contact .section form input {
+    padding: 10px;
+    margin: 0 10px 20px 10px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    height: 25px;
+}
+
+.contact .section .message,
+.contact .section form .subject,
+.contact .section form .email {
+    border-left: 3px dotted #DD442C !important;
+}
+
+.contact .section .file {
+    width: 92.5%;
+}
+
+.contact .section .btn {
+    background-color: #28A5DF;
+    border: none;
+    height: 44px;
+    width: 96%;
+    padding: 10px;
+    font-size: 17px;
+    color: #FFFFFA;
+}
+
+/* CSS FOR SECTION 2 */
+
+.section-2 {
+    margin: 0;
+    position: relative;
+    text-align: center !important;
+    background-color: #fff !important;
+    padding: 112px 20px 0 20px;
+}
+
+.service .section-2 {
+    margin: 0;
+    padding: 110px 20px;
+    height: 140px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service .section-2 .parallax {
+    height: 360px;
+    background-image: url(../img/parallax-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.service .section-2 .line {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.service .section-2 .line .services {
+    font-family: 'Poppins';
+    text-align: left;
+    color: white;
+    padding: 0 20px;
+    width: 25%;
+}
+
+.service .section-2 .line .services h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.section-2 .heart {
+    height: 40px;
+}
+
+.section-2 .top-heading {
+    text-align: center;
+    color: #28a5df;
+    font-family: 'Poppins';
+    margin: 0;
+    font-size: 20px;
+}
+
+.section-2 .main-heading {
+    margin: 0;
+    color: #454545;
+    font-size: 50px;
+    font-family: 'Poppins', serif;
+    font-weight: 100;
+}
+
+.section-2 .main-heading b {
+    font-size: 55px;
+}
+
+.section-2 hr {
+    border: none;
+    border-bottom: 2px #28A5DF dotted;
+    text-align: center;
+    width: 85px;
+    margin: 25px auto 50px auto;
+}
+
+.section-2 .line {
+    display: flex;
+}
+
+.img-div img {
+    height: 400px;
+    padding: 0 20px;
+}
+
+.wedo-div {
+    padding: 0 20px;
+    font-family: 'Poppins';
+    text-align: left;
+}
+
+.wedo-div h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.wedo-div p {
+    color: #999;
+    font-size: 14.72px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.wedo-div .timer {
+    float: right;
+}
+
+.wedo-div .skillbar-bar-1 {
+    height: 4px;
+    background-color: black;
+    width: 71%;
+    margin-bottom: 20px;
+}
+
+.wedo-div .skillbar-bar-2 {
+    height: 4px;
+    background-color: black;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+.wedo-div .skillbar-bar-3 {
+    height: 4px;
+    background-color: black;
+    width: 82%;
+    margin-bottom: 20px;
+}
+
+.section-2 .main-div-1,
+.main-div-2 {
+    width: 100%;
+    display: flex;
+}
+
+.section-2 .main-div-1 .external-div {
+    margin: 0;
+    font-family: 'Poppins';
+    position: static;
+    width: 33.333%;
+    display: block;
+    margin-bottom: 60px !important;
+    padding: 0 1.25rem;
+}
+
+.section-2 .main-div-2 .external-div {
+    margin: 0;
+    font-family: 'Poppins';
+    position: static;
+    width: 33.333%;
+    display: block;
+    /* margin-bottom: 60px !important; */
+    padding: 0 1.25rem;
+}
+
+.section-2 .external-div .image {
+    float: left;
+    margin: 0;
+    height: 43px;
+    top: 0;
+    left: 0;
+}
+
+.section-2 .external-div .internal-div {
+    margin: 0;
+    margin-left: 60px;
+    height: 100%;
+    text-align: left;
+}
+
+.section-2 .external-div .internal-div h3 {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    color: #454545;
+}
+
+.section-2 .external-div .internal-div p {
+    font-size: 14.5px;
+    line-height: 25px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: #999999;
+}
+
+.section-2 .external-div .internal-div a {
+    font-size: 13.6px;
+    text-decoration: none;
+    color: #28A5DF;
+
+}
+
+.section-2 .external-div .internal-div a .fa-chevron-down {
+    margin-left: 10px;
+}
+
+.section-2 .external-div .internal-div a:hover .read-logo {
+    margin-left: 15px;
+}
+
+/* CSS FOR SECTION 3 */
+
+.section-3 {
+    margin: 0;
+    position: relative;
+    background-color: #fff !important;
+    height: 51rem;
+    padding: 7rem 1.25rem 7rem 1.25rem;
+}
+
+.about .section-3 {
+    margin: 0;
+    position: relative;
+    background-color: #fff !important;
+    height: 811px;
+    padding: 7rem 1.25rem 0 1.25rem;
+}
+
+.contact .section-3 {
+    margin: 0;
+    position: relative;
+    background-color: #fff !important;
+    height: 811px;
+    padding: 7rem 1.25rem 0 1.25rem;
+}
+
+.service .section-3 {
+    margin: 0;
+    background-color: #fff !important;
+    height: min-content;
+    padding: 112px 20px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.service .section-3 img {
+    height: 40px;
+}
+
+.service .section-3 .heading {
+    font-size: 50px;
+    color: #454545;
+}
+
+.service .section-3 .hr {
+    border: none;
+    border-bottom: 2px #28A5DF dotted;
+    text-align: center;
+    width: 85px;
+    margin: 0;
+    margin: 25px 570px 50px;
+}
+
+.service .section-3 .fa-star {
+    color: #F1D529;
+    border: none;
+    margin: 0;
+    margin: 3px;
+}
+
+.service .section-3 .review {
+    color: #999999;
+    width: 57%;
+    text-align: center;
+    font-size: 14.72px;
+    margin: 25px auto 0 auto;
+}
+
+.service .section-3 .reviewer {
+    color: #28A5DF;
+    font-size: 16px;
+}
+
+.service .section-3 .owl-dots {
+    height: 7px;
+    margin: 3px;
+}
+
+.service .saparator {
+    border: 0;
+    border-bottom: 3px dotted black;
+}
+
+.section-3 .heading {
+    text-align: center !important;
+    clear: left;
+    margin: 0 auto;
+    padding: 0 0.625rem;
+    max-width: 80rem;
+}
+
+.section-3 .heading p {
+    text-align: center !important;
+    margin: 0;
+    font-weight: 300;
+    font-family: "Poppins";
+    line-height: 1.4;
+    font-size: 20px !important;
+    color: #28a5df !important;
+}
+
+.section-3 .heading h2 {
+    text-align: center !important;
+    margin: 0.5rem 0;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-weight: 100;
+    font-family: "Poppins";
+    line-height: 1.4;
+    font-size: 50px !important;
+    color: #454545 !important;
+}
+
+.section-3 .heading .fa-chevron-down {
+    margin-bottom: 50px;
+    color: #28a5df;
+}
+
+.section-3 .main-div {
+    width: 58.3333%;
+    float: none;
+    margin: 0 auto;
+    display: block !important;
+}
+
+.section-3 .main-div .left-col {
+    margin: 0;
+    text-align: right !important;
+    float: left;
+    width: 30%;
+}
+
+.section-3 .main-div .left-col .div-1 {
+    margin: 0;
+    margin-right: 50px !important;
+}
+
+.section-3 .main-div .left-col .div-2 {
+    text-align: right !important;
+    box-sizing: border-box;
+    clear: left;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 0.625rem;
+    max-width: 80rem;
+}
+
+.section-3 .main-div .left-col .div-2 hr {
+    float: right;
+    margin-top: 40px !important;
+    margin-bottom: 36px !important;
+    position: relative;
+    border: 0;
+    height: 2px;
+    width: 90px;
+    border-top: 2px dotted #28a5df;
+}
+
+.section-3 .main-div .left-col .div-3 {
+    margin: 0;
+    margin-right: 50px !important;
+}
+
+.section-3 .main-div .image {
+    height: 43px;
+    margin-bottom: 20px;
+}
+
+.section-3 .main-div .left-col h3 {
+    text-align: right !important;
+    margin: 0.5rem 0;
+    margin-top: 0;
+    font-family: "Poppins";
+    font-size: 20px !important;
+    display: block;
+    margin-bottom: 20px !important;
+    line-height: 1;
+    font-weight: 900;
+    position: relative;
+    color: #454545;
+}
+
+.section-3 .main-div .right-col h3 {
+    text-align: left !important;
+    margin: 0.5rem 0;
+    margin-top: 0;
+    font-family: "Poppins";
+    font-size: 20px !important;
+    display: block;
+    margin-bottom: 20px !important;
+    line-height: 1;
+    font-weight: 900;
+    position: relative;
+    color: #454545;
+}
+
+.section-3 .main-div .left-col p {
+    text-align: right !important;
+    line-height: 1.6rem;
+    font-family: "Poppins";
+    font-size: 0.92rem;
+    position: relative;
+    margin: 0;
+    color: #999;
+}
+
+.section-3 .main-div .right-col p {
+    text-align: left !important;
+    line-height: 1.6rem;
+    font-family: "Poppins";
+    font-size: 0.92rem;
+    position: relative;
+    margin: 0;
+    color: #999;
+}
+
+.section-3 .main-div .middle-div {
+    float: left;
+}
+
+.section-3 .main-div .mid-div {
+    float: left;
+}
+
+.section-3 .main-div .middle-div .owl-dots {
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-3 .main-div .middle-div .owl-dots img {
+    height: 7px;
+    margin-right: 5px;
+    color: #434343;
+}
+
+.section-3 .main-div .mid-div img {
+    height: 470px;
+}
+
+.section-3 .main-div .middle-div img {
+    height: 420px;
+}
+
+
+.section-3 .main-div .right-col {
+    margin: 0;
+    text-align: right !important;
+    float: left;
+    width: 30%;
+}
+
+.section-3 .main-div .right-col .div-1 {
+    margin: 0;
+    margin-left: 50px !important;
+    text-align: left !important;
+}
+
+.section-3 .main-div .right-col .div-2 {
+    text-align: left !important;
+    box-sizing: border-box;
+    clear: left;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 0.625rem;
+    max-width: 80rem;
+}
+
+.section-3 .main-div .right-col .div-2 hr {
+    float: left;
+    margin-top: 40px !important;
+    margin-bottom: 36px !important;
+    position: relative;
+    border: 0;
+    height: 2px;
+    width: 90px;
+    border-top: 2px dotted #28a5df;
+}
+
+.section-3 .main-div .right-col .div-3 {
+    text-align: left !important;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 50px !important;
+}
+
+/* CSS FOR SECTION 4 */
+
+.section-4 {
+    margin: 0;
+    position: relative;
+    padding: 0;
+    height: 480px;
+    width: 100%;
+}
+
+.service .section-4 {
+    margin: 0;
+    padding: 2.5rem 1.25rem;
+    font-family: 'Poppins';
+    text-align: center;
+    height: min-content;
+    width: 96%;
+}
+
+.service .section-4 h3 {
+    font-size: 20px;
+    color: #454545;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+}
+
+.service .section-4 p {
+    font-size: 14.72px;
+    color: #999999;
+}
+
+.service .section-4 a {
+    display: block;
+    font-size: 20px;
+    background-color: #28A5DF;
+    color: white;
+    padding: 10px 20px;
+    width: 260px;
+    margin: 40px auto 0 auto;
+    text-decoration: none;
+}
+
+.section-4 .image-div {
+    margin: 0;
+    float: left;
+    position: static;
+    width: 41.6666%;
+}
+
+.section-4 .image-div img {
+    margin: 0;
+    border: 0;
+    display: block;
+    height: 480px;
+    max-width: none;
+    width: 100%;
+}
+
+.section-4 .right-div {
+    margin: 0;
+    float: left;
+    position: static;
+    width: 58.3333%;
+    background-color: #28A5DF;
+}
+
+.section-4 .right-div .right-inner-div {
+    margin: 0;
+    float: left;
+    position: static;
+    width: 91.6666%;
+    padding: 30px !important;
+}
+
+.section-4 .right-inner-div h2 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-weight: 100;
+    font-family: "Poppins";
+    line-height: 1.4;
+    font-size: 50px !important;
+    color: #ffffff !important;
+}
+
+.section-4 .right-inner-div p {
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.6rem;
+    font-weight: 300;
+    font-family: "Poppins";
+    font-size: 16.72px;
+    margin-bottom: 1.25rem !important;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.section-4 .right-inner-div .signature-img {
+    margin: 30px 0 60px 20px;
+}
+
+
+/* CSS FOR SECTION 5 */
+
+.section-5 {
+    margin: 0 auto;
+    position: relative;
+    text-align: center !important;
+    background-color: #fff !important;
+    padding: 7rem 1.25rem;
+    color: #999;
+    height: 690px;
+    width: 95%;
+}
+
+.section-5 .heading {
+    text-align: center !important;
+    margin: 0 auto;
+    padding: 0 0.625rem;
+    max-width: 80rem;
+}
+
+.section-5 .heading img {
+    height: 45px;
+}
+
+.section-5 .heading h2 {
+    text-align: center !important;
+    box-sizing: border-box;
+    margin: 0.5rem 0;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-weight: 200;
+    font-family: "Poppins";
+    line-height: 1.4;
+    font-size: 50px !important;
+    color: #454545 !important;
+}
+
+.section-5 .heading hr {
+    text-align: center !important;
+    margin-bottom: 50px !important;
+    border: 0;
+    display: block;
+    height: 2px;
+    width: 90px;
+    margin: 25px auto;
+    background: none !important;
+    border-top: 2px dotted #28a5df;
+}
+
+.section-5 .line {
+    text-align: center !important;
+    margin: 0 auto 0 auto;
+    padding: 0 0.625rem;
+    width: 88%;
+    height: auto;
+    margin-left: 140px;
+}
+
+.section-5 .line .price {
+    border-radius: 5px;
+    padding: 30px;
+    float: left;
+    width: 20%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.section-5 .line .price-1 {
+    margin: 0 45px;
+    border-radius: 5px;
+    padding: 30px;
+    float: left;
+    width: 20%;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
+    scale: 1.1;
+}
+
+.section-5 .line .pkg {
+    text-align: center;
+    font-size: 20.8px;
+    color: #28A5DF;
+    font-family: 'Poppins';
+    margin-top: -1px;
+}
+
+.section-5 .line .value {
+    text-align: center;
+    font-size: 36.8px;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.section-5 .line .year {
+    text-align: center;
+    color: #28A5DF;
+    margin: 0;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.section-5 .line li {
+    font-size: 13.6px;
+    font-family: 'Poppins';
+    padding: 7px 0;
+    list-style: none;
+}
+
+.section-5 .line .last-li {
+    margin-bottom: 35px;
+}
+
+.section-5 .line .btn {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #28a5df !important;
+    padding: 10px 75px 10px 75px;
+    border: 0;
+}
+
+/* CSS FOR SECTION 6 */
+
+.section-6 {
+    height: 100px;
+    padding: 40px 20px 15px 20px;
+    background-color: #F5F5F5;
+}
+
+.section-6 .images {
+    float: left;
+}
+
+.section-6 .images img {
+    width: 101.9px;
+}
+
+.section-7 {
+    height: 165px;
+    background-color: #454545;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section-7 .heading {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins';
+    color: white;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section-7 .store-img {
+    height: 54px;
+    margin: 0 10px;
+}
+
+.section-7 a {
+    text-decoration: none;
+}
+
+/* CSS FOR MAP */
+
+.map {
+    width: 100%;
+    position: relative;
+}
+
+/* CSS FOR FOOTER */
+
+footer {
+    margin: 0;
+}
+
+footer .logo-div {
+    height: 35px;
+    background-color: #57A6DD;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+footer .logo-div div {
+    margin-top: 10px;
+}
+
+footer .logo-div div i {
+    margin-right: 8px;
+    color: #005881;
+}
+
+footer .main-footer {
+    padding: 6rem 1.25rem;
+    background-color: #454545 !important;
+    color: #999;
+    font-family: 'Poppins';
+}
+
+footer .main-footer .internal-div-1 {
+    font-size: 14.72px;
+    padding: 0 20px;
+    float: left;
+    width: 35%;
+}
+
+footer .main-footer .internal-div-1 b {
+    font-size: 20px;
+}
+
+footer .main-footer .internal-div-2 {
+    font-size: 14.72px;
+    padding: 0 20px;
+    float: left;
+    width: 16%;
+}
+
+footer .main-footer .internal-div-3 {
+    font-size: 14.72px;
+    padding: 0 20px;
+    float: left;
+    width: 17%;
+}
+
+footer .main-footer h4 {
+    color: white;
+    font-size: 17.6px;
+}
+
+footer .main-footer a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer .main-footer a:hover {
+    color: #28A5DF;
+}
+
+footer hr {
+    border: 0;
+    border-bottom: 3px dotted #999;
+    margin: -4px auto 0 auto;
+    width: 95%;
+}
+
+footer .bottom-footer {
+    padding: 25px 40px;
+    background-color: #454545 !important;
+    color: #999;
+}
+
+footer .bottom-footer .line {
+    display: flex;
+}
+
+footer .bottom-footer .internal-div-1 {
+    padding: 20px;
+    /* float: left; */
+}
+
+footer .bottom-footer .internal-div-1 p {
+    font-size: 12px;
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+footer .bottom-footer .internal-div-2 {
+    padding: 20px;
+    margin-left: 460px;
+}
+
+footer .bottom-footer a {
+    font-size: 12px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #999;
+}
+
+footer .bottom-footer a:hover {
+    color: #28A5DF;
+}
+
+/* } */
